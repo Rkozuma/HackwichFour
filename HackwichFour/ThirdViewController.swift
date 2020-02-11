@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  HackwichFour
 //
 //  Created by CM Student on 2/11/20.
@@ -8,20 +8,25 @@
 
 import UIKit
 
-class SecondViewController: UIViewController
-{
+class ThirdViewController: UIViewController {
 
-    @IBOutlet weak var SecondTabLabel: UILabel!
+    
+    
+    @IBAction func BackgroundChangeButton(_ sender: Any)
+    {
+        self.view.backgroundColor = UIColor.green
+    }
+    @IBOutlet weak var ThirdTabLabel: UILabel!
     
     
     override func viewDidLoad()
     {
+    
+        self.ThirdTabLabel.text = "My Favorite Foods"
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        // Part 10 OYO Problem Sets: 1
-        self.SecondTabLabel.text = "My Classes"
     }
     
 
@@ -34,5 +39,7 @@ class SecondViewController: UIViewController
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }
