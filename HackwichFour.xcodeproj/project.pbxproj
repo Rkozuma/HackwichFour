@@ -12,6 +12,7 @@
 		7F1C701023F33B830089BAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C700E23F33B830089BAB1 /* Main.storyboard */; };
 		7F1C701223F33B830089BAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C701123F33B830089BAB1 /* Assets.xcassets */; };
 		7F1C701523F33B830089BAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C701323F33B830089BAB1 /* LaunchScreen.storyboard */; };
+		7F1C701D23F341460089BAB1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C701C23F341460089BAB1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7F1C701123F33B830089BAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1C701423F33B830089BAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F1C701623F33B830089BAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1C701C23F341460089BAB1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7F1C700A23F33B830089BAB1 /* AppDelegate.swift */,
 				7F1C700C23F33B830089BAB1 /* ViewController.swift */,
 				7F1C700E23F33B830089BAB1 /* Main.storyboard */,
+				7F1C701C23F341460089BAB1 /* SecondViewController.swift */,
 				7F1C701123F33B830089BAB1 /* Assets.xcassets */,
 				7F1C701323F33B830089BAB1 /* LaunchScreen.storyboard */,
 				7F1C701623F33B830089BAB1 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1C701D23F341460089BAB1 /* SecondViewController.swift in Sources */,
 				7F1C700D23F33B830089BAB1 /* ViewController.swift in Sources */,
 				7F1C700B23F33B830089BAB1 /* AppDelegate.swift in Sources */,
 			);
